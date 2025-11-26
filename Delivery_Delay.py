@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-filename = r'logistic_regression_model.joblib.joblib'
+filename = r'logistic_regression_model.joblib'
 loaded_model = joblib.load(open(filename, 'rb'))
 
 # Define the correct column names
